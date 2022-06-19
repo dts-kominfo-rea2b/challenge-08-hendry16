@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Merriweather+Sans:wght@500&family=Nunito:wght@200&display=swap');
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: rgb(200, 225, 236);
+  margin-top: 30px;
+}
+h1 {
+  font-family: 'Merriweather Sans', sans-serif;
+  margin: 6px 0 6px 0;
+}
+p {
+  font-family: 'Caveat', cursive;
+  font-size: 22px;
+  margin: 6px 0 6px 0;
+}
+div#app {
+  width: 300px;
+  padding: 10px;
+  margin: auto;
+  border: 1px grey solid;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(247, 247, 247);
+}
+ul#todo-output {
+  background-color: white;
+  padding: 5px;
+  /* border: 1px grey solid; */
+  border-radius: 6px;
+  box-shadow: 4px 4px rgb(191, 191, 235);
+}
+ul#todo-output li {
+  border: 1px grey solid;
+  border-radius: 4px;
+  margin: 6px;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  list-style-type: none;
+}
+div.input-button {
+  padding: 10px;
+  border: 1px grey solid;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 4px;
+}
+input#todo-input {
+  width: 210px;
+  padding: 4px 10px;
+  border: 1px grey solid;
+  border-radius: 30px;
+}
+input#todo-input:hover {
+  background-color:aliceblue;
+}
+input::placeholder {
+  color: grey;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800px;
+}
+button#todo-submit {
+  background-color: rgb(150, 202, 245);
+  border: none;
+  width: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large;
+  color: rgb(74, 74, 138);
+}
+li.list {
+  background-color: rgb(238, 238, 252);
+}
